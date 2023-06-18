@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;display=swap");
+
+
+header {
+  display: flex;
+  position: fixed;
+  background: #191a1bd7;
+  border-radius: 15px;
+  width: 80%;
+  padding: 15px;
+  margin-top: 40px;
+  margin-left: 10%;
+  backdrop-filter: blur(10px);
+  align-items: center;
+  min-width: 250px;
+}
+
+header h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 20px;
+  user-select: none;
+}
+
+header nav {
+  display: inline;
+  width: auto;
+  margin-left: auto;
+}
+
+.text-and-logo {
+  display: flex;
+  place-content: center;
+  place-items: center;
+}
+
+#login {
+  background-color: #2e2e2e;
+  padding: 10px 15px 10px 15px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+
+.text-and-logo a {
+  margin-left: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.text-and-logo img {
+  width: 2.5rem;
+  border-radius: 100%;
+  user-select: none;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+.active {
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+}
+
+.active li {
+  margin: 10px;
+}
+
+@media (max-width: 720px) {
+
+
+  header {
+    position: fixed;
+  }
+
+  .checkbtn {
+    display: block;
+  }
+
+  #check {
+    display: none;
+  }
+
+  ul {
+
+    border-radius: 10px;
+    position: fixed;
+    width: 100%;
+    margin-left: 5%;
+    height: 60%;
+    top: 110%;
+    right: -120%;
+    text-align: center;
+    justify-content: center;
+    transition: all, .5s;
+    background: #1d1e21;
+
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 15px;
+  }
+
+  .active {
+    margin-right: -15px;
+  }
+
+  #login {
+    background-color: #0044ff;
+    padding: 4px 12px 4px 12px;
+    border-radius: 50%;
+    margin: 5px;
+  }
+
+  #check:checked~ul {
+    right: 5%;
+
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    display: none;
+  }
+}

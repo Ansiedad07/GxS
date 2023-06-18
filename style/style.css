@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&family=Poppins:wght@300;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    cursor: default;
+    margin: 0px;
+    padding: 0px;
+    background: #1F1E2E;
+}
+
+::selection {
+    color: rgb(255, 255, 255);
+    background: rgb(45, 45, 45);
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/others/JavaScript.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 2vh;
+    padding: 25vh;
+    padding-left: 5%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px #00000060;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text h1 {
+    margin: 0px;
+    font-size: 60px;
+}
+
+.hero-text p {
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+.hero-text button {
+    border: 2px solid rgb(255, 109, 236);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(255, 109, 236, 0.188);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hero-text button:hover {
+    box-shadow: 0 0 10px 1px #ff74e8ae;
+    transform: scale(1.05) perspective(1px);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+    padding: 70px;
+    text-align: center;
+    background-color: #1c171e;
+    user-select: none;
+    font-size: 20px;
+}
+
+.banner {
+    /* height: auto; */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/LunarTaku/discord-web/main/img/bkgs.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 12px;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    /* position: absolute; */
+    /* color: white; */
+    /* box-shadow: 0 0 10px 1px #00000060; */
+}
+
+.posts {
+    padding: 20px;
+    padding-bottom: 30px;
+    background-color: rgb(230, 242, 252);
+    white-space: pre-line;
+}
+
+.banner a {
+    color: rgb(255, 208, 208);
+    text-decoration: none;
+}
+
+.banner a:hover {
+    text-shadow: 0 0 10px rgba(255, 208, 208, 0.56);
+    transition: text-shadow 0.3s;
+}
+
+.button {
+    padding: 15px;
+    background-color: rgb(78, 78, 255);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px rgba(100, 100, 255, 0.555);
+    transform: scale(1.05) perspective(1px);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.button-green {
+    padding: 15px;
+    background-color: rgb(108, 255, 140);
+    color: black;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.button-green:hover {
+    box-shadow: 0 0 10px rgba(100, 255, 126, 0.555);
+    transform: scale(1.05) perspective(1px);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+h1,
+p {
+    color: rgb(255, 208, 208);
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.gtext {
+    font-family: 'Moirai One', cursive;
+}
+
+.navbar {
+    padding: 10px;
+    background-color: #1c171e;
+    text-align: center;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: rgb(255, 208, 208);
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-shadow: 0 0 10px rgba(255, 208, 208, 0.56);
+    transition: text-shadow 0.3s;
+}
+
+.upbutton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: 2px solid rgb(255, 109, 236);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(255, 109, 236, 0.188);
+    color: white;
+    /* border-radius: 20px; */
+    cursor: pointer;
+    border-radius: 500px;
+    font-size: 18px;
+}
+
+.upbutton:hover {
+    box-shadow: 0 0 10px 1px #ff74e8ae;
+    transform: scale(1.05) perspective(1px);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.blogs {
+    position: absolute;
+    left: 100px;
+    font-family: 'Fira Code';
+    white-space: pre-wrap;
+    color: rgb(32, 192, 190);
+
+    /* display: flex; */
+    /* border: 1px solid rgba(0, 0, 0, 0.25); */
+    border-radius: 20px;
+
+    /* box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.223); */
+    margin: 12px;
+    margin-top: auto;
+    padding: 5px;
+    /* background-color: #212325; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.blogs a {
+    color: rgb(255, 208, 208);
+    text-decoration: none;
+}
+
+.blogs a:hover {
+    text-shadow: 0 0 10px rgba(255, 208, 208, 0.56);
+    transition: text-shadow 0.3s;
+}
+
+.footer {
+    display: flex;
+    border: 2px dashed rgba(0, 0, 0, 0.25);
+    border-color: aqua;
+    border-radius: 20px;
+    border-width: 1px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.223);
+    margin: 12px;
+    margin-top: auto;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer a {
+    color: rgb(255, 208, 208);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-shadow: 0 0 10px rgba(255, 208, 208, 0.56);
+    transition: text-shadow 0.3s;
+}
